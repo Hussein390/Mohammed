@@ -104,10 +104,10 @@ header{
   line-height: 1.8;
   font-size: 17px;
   p:first-child{
-    margin-bottom: 18px;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
   }
-  p{
+  p:last-child{
+    padding-top: 25px;
     color: rgb(6, 37, 138);
     span{
       padding-bottom: 2px;
