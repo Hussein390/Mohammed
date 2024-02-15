@@ -48,6 +48,10 @@ header{
     font-size: 18px;
     font-weight: bold;
   }
+ li:first-child {
+  padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+  }
 }
 @media (max-width: 600px){
   header{
